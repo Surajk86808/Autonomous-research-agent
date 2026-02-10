@@ -1,0 +1,88 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+.venv/
+venv/
+ENV/
+env/
+
+# -----------------------------
+# Environment Variables (CRITICAL)
+# -----------------------------
+.env
+.env.*
+!.envTemplate
+
+# NEVER push API keys.
+
+# -----------------------------
+# Vector DB / Local Databases
+# -----------------------------
+qdrant_data/
+*.db
+*.sqlite3
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# Mac / Windows junk
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints
+
+# -----------------------------
+# HuggingFace / Model Cache
+# (can become several GB)
+# -----------------------------
+.cache/
+huggingface/
+transformers/
+
+# -----------------------------
+# Pytest / coverage
+# -----------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# -----------------------------
+# Temporary files
+# -----------------------------
+*.tmp
+*.temp
